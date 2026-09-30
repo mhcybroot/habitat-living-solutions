@@ -15,9 +15,11 @@ export default function Footer() {
           {/* Col 1: Brand info */}
           <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-forest-700 flex items-center justify-center text-emerald-300 shadow-md">
-                <Trees className="w-5 h-5" />
-              </div>
+              <img 
+                src="/logo_icon_transparent.png" 
+                alt="Habitat Living Solutions LLC" 
+                className="h-10 w-auto object-contain bg-white/10 p-1 rounded-xl"
+              />
               <span className="font-bold text-lg text-white tracking-tight">
                 HABITAT LIVING SOLUTIONS LLC
               </span>

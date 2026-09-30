@@ -48,9 +48,11 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <a href="#" className="flex items-center gap-3 group">
-              <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-forest-700 to-forest-900 flex items-center justify-center text-white shadow-md shadow-forest-900/10 group-hover:scale-105 transition-transform">
-                <Trees className="w-6 h-6 text-emerald-300" />
-              </div>
+              <img 
+                src="/logo_icon_transparent.png" 
+                alt="Habitat Living Solutions" 
+                className="h-12 w-auto object-contain group-hover:scale-105 transition-transform" 
+              />
               <div className="flex flex-col">
                 <span className="font-bold text-lg sm:text-xl text-forest-950 tracking-tight leading-tight">
                   HABITAT LIVING SOLUTIONS
